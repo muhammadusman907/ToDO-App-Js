@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("public/background.jpg");
+    /* background-color: cadetblue; */
+    text-align: center;
+}
+.image-box{
+    /* background-image: url("public/background.jpg"); */
+    background-color: #fff;
+    height: 550px;
+    width: 40%;
+    margin-left: 25%;
+}
+
+#val{
+    margin-top: 30px;
+    height: 50px;
+    border-bottom: solid;
+    border: none;
+    width: 70%;
+    outline: none;
+    font-size: 20px;
+    /* border-radius: 3px; */
+    box-shadow: 0px 2px 0px 0px  gray;
+    /* color: #fff; */
+
+}
+#child2{
+    margin-top: 15px;
+
+}
+#addBtn{
+    height: 35px;
+    width: 20%;
+    color: #fff;
+    background-color:#ff9400;
+    border: none;
+    border-radius: 4px;
+    margin-left:3% ;
+    cursor: pointer;
+}
+#addBtn:active{
+    background-color: lightgreen;
+}
+#updateBtn{
+    height: 35px;
+    width: 20%;
+    color: #fff;
+    background-color:#ff9400;
+    border: none;
+    border-radius: 4px;
+    margin-left:3%;
+    cursor: pointer;
+}
+#delete-all-btn{
+    height: 35px;
+    width: 20%;
+    color: #fff;
+    background-color:#c10000;
+    border: none;
+    border-radius: 4px;
+    margin-left: 1%;
+    cursor: pointer;
+}
+#delete-all-btn:active{
+    background-color:#ff9400;
+}
+.delete-btn{
+    background-color:orangered;
+}
+.delete-btn:active{
+    background-color:#ff9400;
+}
+
+li {
+    display: flex;
+    justify-content:space-between;
+    /* list-style: none; */
+    align-items: center;
+    margin-top: 15px;
+    color: #fff;
+    
+    
+}
+li button{
+    cursor: pointer;
+    color: antiquewhite;
+    background-color:#12c18d;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    margin-left: 4%;
+    font-size: 12px;
+}
+span{
+    color: #c10000;
+    font-size: 20px;
+    width: 250px;
+    border-bottom:solid #c10000;
+    word-wrap: break-word;
+}
+.btnParent1 {
+    width: 300px;
+}
+
+@media screen and (max-width: 800px) {
+    .image-box{
+        /* background-image: url("public/background.jpg"); */
+
+        height: 550px;
+        width: 80%;
+    margin-left: 10%;
+    }
+    button{
+        font-size: 10px;
+    }
+    li button{
+        font-size: 10px;
+    }
+    span{
+        word-wrap: break-word;
+        font-size: 10px;
+        width: 200px;
+      
+    }
+
+  }
+  @media screen and (max-width: 550px) {
+    .image-box{
+        /* background-image: url("public/background.jpg"); */
+
+        height: 550px;
+        width: 80%;
+    margin-left: 10%;
+    }
+    button{
+        font-size: 10px;
+    }
+    li button{
+        font-size: 10px;
+    }
+    span{
+        font-size: 10px;
+        width: 200px;
+    }
+
+  }

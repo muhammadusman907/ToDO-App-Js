@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="image-box">
+    <h1></h1>
+    <div id="main"></div>
+    <div class="child" id="child1" ><input type="text" id="val" placeholder="Enter Todo"></div>
+    <div class="child" id="child2" > <button id="addBtn" onclick="toDo()">Add ToDo</button>
+      <button style="display: none;" id="updateBtn" onclick="updateBtns()">Update</button>
+      <button id="delete-all-btn" onclick="deleteAll()">Delete All</button>
+    </div>
+
+    <div>
+      <ul id="listItem">
+
+      </ul>
+    </div>
+  </div>
+</body>
+<script src="./app.js"> </script>
+
+</html>
